@@ -3,12 +3,13 @@
 
 terraform {
 
-  cloud {
-    organization = "organization-name"
+   cloud { 
+    
+    organization = "terraformhcp-test" 
 
-    workspaces {
-      name = "learn-terraform"
-    }
+    workspaces { 
+      name = "virtualan" 
+    } 
   }
 
   required_providers {
